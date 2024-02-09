@@ -105,14 +105,16 @@ p {
   font-size: 1.5rem;
   font-weight: 700;
   cursor: pointer;
-  transition: background-color .15s;
+  transition: all .3s;
 }
 
 .button-primary:hover {
   background-color: #ec71ff;
+  transform: translateY(-.2rem);
 }
 
 .button-secondary {
+  z-index: 1000;
   color: #FCEDFF;
   box-shadow: 0px 5px 100px 0px rgba(73, 0, 82, 0.461), 0px 5.31px 5.31px 0px #2e0035 inset, 0px -5.31px 5.31px 0px #000000 inset;
   padding: 1.7rem 2.3rem;
